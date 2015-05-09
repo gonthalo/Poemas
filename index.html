@@ -56,11 +56,26 @@
 					<div id"aside" class="poem2">
 						<ul>
 							<li>Es la química portentosa</li>
-							<li>al mezclar ácido con sosa</li>
+							<li>cuando mezclas ácido y sosa</li>
 						</ul>
 					</div>
 				</td>
 			</tr>
 		</table>
 	</body>
+	<script type="text/javascript">
+	function genran(){
+		for (var a=1; a<2; a++){
+			var b = a.toString();
+			var d = "poema";
+			var b = d.concat(b);
+			var c = Math.rand;
+			if (c<0.5){
+				document.getElementById(b).style.background-color = "black";
+			} else {
+				document.getElementById(b).style.background-color = "white";
+			}
+		}
+	}
+	</script>
 </html>
